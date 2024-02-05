@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>JS</title>
+</head>
+<body>
+
+    <button id="scrollMax">Прокрутить в самый низ</button>
+    <button id="scroll400">Прокрутить на 400</button>
+
+    
+    <div id="elem"></div>
+
+
+    <ul class="www-wrapper">
+        <li class="www">text 1</li>
+        <li class="www">text 2</li>
+        <li class="www">text 3</li>
+        <li class="www">text 4</li>
+        <li class="www">text 5</li>
+        <li class="www">text 6</li>
+        <li class="www">text 7</li>
+        <li class="www">text 8</li>
+        <li class="www">text 9</li>
+        <li class="www">text 10</li>
+    </ul>
+
+
+
+    <ul id="myUl">
+
+    </ul>
+
+
+
+    <div id="parent">
+        <div id="child"></div>
+    </div>
+    <button id="deleteButton">Delete</button>
+
+
+
+    <ol class="myOl">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ol>
+    <button id="olDeleteButton">Delete</button>
+
+
+
+    <input type="text" id="myInput">
+    <button id="cloneButton">Clone</button>
+
+
+
+    <div id="myElem">
+        <div class="childElem">text</div>
+        <div class="childElem" id="element">text</div>
+        <div class="childElem">text</div>
+        <div class="childElem">text</div>
+    </div>
+
+
+    <button id="topB">Узнать верхнюю границу</button>
+    <button id="leftB">Узнать левую границу</button>
+    <button id="paddingsWidth">Узнать полную ширину с учетом границы и padding</button>
+    <button id="clientW">Узнать размер элемента без учета границ, но с padding</button>
+
+
+
+
+    <div id="scrollElem">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias mollitia minima ex reiciendis quasi cum perferendis magnam corrupti aperiam autem, dignissimos quam reprehenderit ipsum ad. Eaque officia quibusdam cum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias mollitia minima ex reiciendis quasi cum perferendis magnam corrupti aperiam autem, dignissimos quam reprehenderit ipsum ad. Eaque officia quibusdam cum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias mollitia minima ex reiciendis quasi cum perferendis magnam corrupti aperiam autem, dignissimos quam reprehenderit ipsum ad. Eaque officia quibusdam cum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias mollitia minima ex reiciendis quasi cum perferendis magnam corrupti aperiam autem, dignissimos quam reprehenderit ipsum ad. Eaque officia quibusdam cum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias mollitia minima ex reiciendis quasi cum perferendis magnam corrupti aperiam autem, dignissimos quam reprehenderit ipsum ad. Eaque officia quibusdam cum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias mollitia minima ex reiciendis quasi cum perferendis magnam corrupti aperiam autem, dignissimos quam reprehenderit ipsum ad. Eaque officia quibusdam cum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias mollitia minima ex reiciendis quasi cum perferendis magnam corrupti aperiam autem, dignissimos quam reprehenderit ipsum ad. Eaque officia quibusdam cum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias mollitia minima ex reiciendis quasi cum perferendis magnam corrupti aperiam autem, dignissimos quam reprehenderit ipsum ad. Eaque officia quibusdam cum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias mollitia minima ex reiciendis quasi cum perferendis magnam corrupti aperiam autem, dignissimos quam reprehenderit ipsum ad. Eaque officia quibusdam cum?</p>
+        
+    </div>
+
+    <button id="getTopScroll">Насколько прокручен сверху</button>
+    <button id="getLeftScroll">Насколько прокручен слева</button>
+    <button id="go100Top">Прокрутить до 100px сверху</button>
+    <button id="go100Bottom">Прокрутить на 100px вниз от текущего положения</button>
+
+
+
+    
+    <div id="scrollElem2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias mollitia minima ex reiciendis quasi cum perferendis magnam corrupti aperiam autem, dignissimos quam reprehenderit ipsum ad. Eaque officia quibusdam cum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias mollitia minima ex reiciendis quasi cum perferendis magnam corrupti aperiam autem, dignissimos quam reprehenderit ipsum ad. Eaque officia quibusdam cum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias mollitia minima ex reiciendis quasi cum perferendis magnam corrupti aperiam autem, dignissimos quam reprehenderit ipsum ad. Eaque officia quibusdam cum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias mollitia minima ex reiciendis quasi cum perferendis magnam corrupti aperiam autem, dignissimos quam reprehenderit ipsum ad. Eaque officia quibusdam cum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias mollitia minima ex reiciendis quasi cum perferendis magnam corrupti aperiam autem, dignissimos quam reprehenderit ipsum ad. Eaque officia quibusdam cum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias mollitia minima ex reiciendis quasi cum perferendis magnam corrupti aperiam autem, dignissimos quam reprehenderit ipsum ad. Eaque officia quibusdam cum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias mollitia minima ex reiciendis quasi cum perferendis magnam corrupti aperiam autem, dignissimos quam reprehenderit ipsum ad. Eaque officia quibusdam cum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias mollitia minima ex reiciendis quasi cum perferendis magnam corrupti aperiam autem, dignissimos quam reprehenderit ipsum ad. Eaque officia quibusdam cum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias mollitia minima ex reiciendis quasi cum perferendis magnam corrupti aperiam autem, dignissimos quam reprehenderit ipsum ad. Eaque officia quibusdam cum?</p>
+        
+    </div>
+
+    <button id="realWH">Реальная ширина и высота элемента с учетом прокрутки</button>
+    <button id="scroll100">Прокрутить на 100px</button>
+
+
+
+
+
+
+    <div class="scrollInfo">
+        <button id="pageInfo">Насколько прокручена по вертикали</button>
+    </div>
+
+
+
+    <div class="scrollInfo">
+        <button id="scroll300500">Прокутить на 300 слева и 500 сверху</button>
+    </div>
+
+    <div class="scrollInfo">
+        <button id="scroll300Bottom">Прокутить на 300 вниз от текущего</button>
+    </div>
+
+
+
+
+    <button id="scrollProv">Проверка на прокрутку</button>
+
+
+
+
+
+    <div id="resizeElem"></div>
+    <script src="app.js"></script>
+</body>
+</html>
